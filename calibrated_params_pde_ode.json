@@ -1,8 +1,8 @@
 {
   "title": "MaroFlux Calibrated Parameters & Simulation Results",
-  "methodology": "MaroFlux_Final_v6.pdf \u2014 Sec 3.4.1, 3.7, 9.1-9.2",
-  "repository": "https://github.com/[author]/MaroFlux-PDE-ODE",
-  "zenodo_doi": "10.5281/zenodo.[XXXXXX]  \u2190 replace before submission",
+  "methodology": "MaroFlux_Final_v6.pdf — Sec 3.4.1, 3.7, 9.1-9.2",
+  "repository": "https://github.com/marwamalaaraslan1/MaroFlux-PDE-ODE",
+  "zenodo_doi": "10.5281/zenodo.20135313",
   "parameters": {
     "L": 0.001,
     "Nx": 100,
