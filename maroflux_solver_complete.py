@@ -15,8 +15,8 @@ Author: Marwan Alaa Mohamed Mohamed Raslan
         Independent Researcher, Cairo, Egypt
 Date:   May 2026
 License: MIT
-Repository: https://github.com/[author]/MaroFlux-PDE-ODE  (replace before submission)
-Zenodo DOI: 10.5281/zenodo.[XXXXXX]                       (replace before submission)
+Repository: https://github.com/marwamalaaraslan1/MaroFlux-PDE-ODE
+Zenodo DOI: 10.5281/zenodo.20135313
 
 Usage:
     python maroflux_solver_complete.py
@@ -677,8 +677,8 @@ if __name__ == "__main__":
     output_main = {
         "title":       "MaroFlux Calibrated Parameters & Simulation Results",
         "methodology": "MaroFlux_Final_v6.pdf — Sec 3.4.1, 3.7, 9.1-9.2",
-        "repository":  "https://github.com/[author]/MaroFlux-PDE-ODE",
-        "zenodo_doi":  "10.5281/zenodo.[XXXXXX]  ← replace before submission",
+        "repository":  "https://github.com/marwamalaaraslan1/MaroFlux-PDE-ODE",
+        "zenodo_doi":  "10.5281/zenodo.20135313",
         "parameters": {
             k: to_json(v)
             for k, v in params.__dict__.items()
@@ -738,9 +738,11 @@ if __name__ == "__main__":
     print("    📄 calibrated_params_pde_ode.json")
     print("    📄 sobol_sensitivity_results_pde_ode.json")
     print()
-    print("  ⚠️  Before GitHub/Zenodo upload:")
-    print("    1. Replace '[author]' in repository URL")
-    print("    2. Replace '[XXXXXX]' with actual Zenodo DOI")
-    print("    3. Re-run with N_base=2**13 for publication-grade Sobol")
-    print("    4. Re-run with N_mc=10000 for publication-grade Monte Carlo")
+    print("  ✅ Repository and DOI updated:")
+    print(f"    • GitHub: https://github.com/marwamalaaraslan1/MaroFlux-PDE-ODE")
+    print(f"    • Zenodo DOI: 10.5281/zenodo.20135313")
+    print()
+    print("  📌 For publication-grade results, re-run with:")
+    print("    • N_base=2**13 for Sobol analysis (Sec 3.4.2)")
+    print("    • N_mc=10000 for Monte Carlo UQ (Sec 3.4.3)")
     print("=" * 65)
